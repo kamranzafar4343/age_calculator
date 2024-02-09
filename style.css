@@ -129,12 +129,48 @@ height: auto;
     font-weight: bold;
 }
 
-@media only screen and (max-width: 480px) {
-    /* Styles for screens smaller than 480px (such as Samsung J7 Pro) */
-    /* Your responsive CSS rules here */
-    
-  }
+@media only screen and (max-width: 768px) {
+    .calculator {
+        width: 90%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .calculator h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .input-box input {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .input-box button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .github {
+        width: 80%;
+    }
+
+    #result {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: medium;
+    }
+
+    #result span {
+        font-size: 30px;
+    }
+}
 
 
 
