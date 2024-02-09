@@ -1,5 +1,5 @@
 let userInput = document.getElementById("date");
-
+let result = document.getElementById("result");
 
 // user will be able to select (any previous date > today)
 userInput.max = new Date().toISOString().split("T")[0];
@@ -46,7 +46,10 @@ function calculateMyAge(){
         m3 = 11;
         y3--;
     }
+
+    result.innerhtml=``;
 }
 
-     
-    return new Date(year, month, 0).getDate();
+    function getDaysInMonth(year, month){
+        return new Date(year, month, 0).getDate();
+    }
