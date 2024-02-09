@@ -22,5 +22,44 @@
 
 .calculator h1{
     font-size: 60px;
+    margin-bottom: 5px;
+
+}
+
+.calculator h1 span{
+    color: #ffff77;
+}
+
+.input-box{
+    margin: 40 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
     
+}
+
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline:0;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+}
+
+.input-box button{
+    background: #ffff77;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 500;
+    color: #4203a9;
+    font-weight: bold;
+    cursor: pointer;
 }
