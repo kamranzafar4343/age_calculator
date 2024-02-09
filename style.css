@@ -17,11 +17,11 @@
     width: 100%;
     max-width: 600px;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .calculator h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 15px;
 
 }
@@ -70,10 +70,20 @@
     font-weight: bold;
     cursor: pointer;
     transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
 
 }
 
+.github{
+    margin-top: 37px;
+    border-radius: 10px;
+     font-weight: bold;
+    width: 350px;
+    height: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
 /* .input-box button:after {
     content: "";
     background: #f1f1f1;
@@ -108,7 +118,7 @@ height: auto;
 }
 
 #result{
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 35px;
     font-size: larger;
 }
