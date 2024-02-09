@@ -119,7 +119,7 @@ height: auto;
 
 #result{
     margin-top: 40px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     font-size: larger;
 }
 
