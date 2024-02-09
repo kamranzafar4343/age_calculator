@@ -2,6 +2,10 @@
 
 This is a simple web application that calculates a person's age based on the selected birth date. It utilizes HTML, CSS, and JavaScript to create a user-friendly interface where users can select their birth date from a calendar icon and then click on a "Calculate" button to display their age.
 
+## Screenshot
+![Capture](https://github.com/kamranzafar4343/age-calculator/assets/91176244/dea7abbb-1d92-46a0-9f89-0814185e4424)
+
+
 ## Features
 
 - Select birth date from a calendar icon.
