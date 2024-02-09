@@ -22,7 +22,7 @@
 
 .calculator h1{
     font-size: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -49,7 +49,14 @@
     border-radius: 5px;
     font-size: 20px;
     position: relative;
+    
 }
+
+.input-box button:hover {
+    background-color: #4203a9;
+    color: white;
+    opacity: 1;
+  }
 
 .input-box button{
     background: #ffff77;
@@ -62,14 +69,37 @@
     color: #4203a9;
     font-weight: bold;
     cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
+
+/* .input-box button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+   */
+  /* .input-box button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  } */
 
 .input-box input::-webkit-calendar-picker-indicator{
 background-color: calc(100% - 10px);
 background-size: 26px;
 cursor: pointer;
 position: absolute;
-left: 290px;
+left: 315px;
 right:0;
 bottom: 13px;
 top: 11px;
@@ -77,7 +107,23 @@ width: auto;
 height: auto;
 }
 
+#result{
+    margin-top: 60px;
+    margin-left: 35px;
+    font-size: larger;
+}
 
+#result span{
+    color: #ffff77;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for screens smaller than 480px (such as Samsung J7 Pro) */
+    /* Your responsive CSS rules here */
+    
+  }
 
 
 
