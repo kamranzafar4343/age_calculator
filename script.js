@@ -12,6 +12,8 @@ function calculateMyAge(){
     
     let d1= birthDate.getDate();  //stores birth date
     let m1= birthDate.getMonth()+1;  //stores birth month, added +1 so that it gets the month
+    /*So, for example, if the birth month is January, birthDate.getMonth() would return 0. If the birth month is February, it would return 1, and so on.
+    However, when displaying the month to users, it's customary to use the regular numbering system where January is represented by 1, February by 2, and so forth.*/
     let y1= birthDate.getFullYear();  //stores birth year
 
     //stores todays date

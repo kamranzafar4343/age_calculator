@@ -1,0 +1,27 @@
+*{
+    /*css boiler plate*/
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 150px 300px;
+}
+.calculator h1{
+    font-size: 50px;
+}
+
+.input-box input{
+    margin-top: 20px;
+    height: 80px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.input-box button{
+    margin-top: 2%;
+    height: 40px;
+    width: 80px;
+}
